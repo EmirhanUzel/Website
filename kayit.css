@@ -1,0 +1,30 @@
+        td {
+            text-align: center;
+        }
+        .container {
+            width: 70%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        table {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px auto;
+        }
+        td {
+            padding: 10px;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }

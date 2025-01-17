@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kayit.css">
+    <title>İletişim Başvurusu</title>
+</head>
+<body style="background-color: #6b747f;">
+
+    <div class="container">
+        <form action="submit_form.php" method="POST">
+            <table>
+                <tr>
+                    <td>Adınız:</td>
+                    <td><input type="text" name="name" placeholder="Adınızı giriniz." required></td>
+                </tr>
+                <tr>
+                    <td>Soyadınız:</td>
+                    <td><input type="text" name="surname" placeholder="Soyadınızı giriniz." required></td>
+                </tr>
+                <tr>
+                    <td>Mail Adresiniz:</td>
+                    <td><input type="email" name="mail" placeholder="Mail adresinizi giriniz." required></td>
+                </tr>
+                <tr>
+                    <td>Telefon Numaranız:</td>
+                    <td><input type="text" name="nick" placeholder="Telefon Numaranızı Giriniz." required></td>
+                </tr>
+                <tr>
+                    <td>Şehir:</td>
+                    <td>
+                        <select name="city" required>
+                            <option value="none">Seçiniz</option>
+                            <option value="01">Adana</option>
+                            <option value="06">Ankara</option>
+                            <option value="34">İstanbul</option>
+                            <option value="35">İzmir</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Cinsiyet:</td>
+                    <td>
+                        <input type="radio" name="gender" value="Erkek" required> Erkek
+                        <input type="radio" name="gender" value="Kadın" required> Kadın
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="submit">Kaydet</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>
